@@ -11,6 +11,7 @@ BOOKS_DATABASE = [
     }
 ]
 
+
 class Book:
 
     def __init__(self, id_: int, name: str, pages: int):
@@ -26,6 +27,7 @@ class Book:
 
     def return_book_id(self):
         return self.id_
+
 
 class Library:
 
